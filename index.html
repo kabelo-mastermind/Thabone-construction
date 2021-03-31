@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web-fonts-with-css\css\all.min.css" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Thaboneo | Build an empire with us</title>
+</head>
+<style>
+  .showcase::before,
+.showcase::after {
+  content: '';
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+
+</style>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo"><img src="images/logo.png" alt=""> </h1>
+            <nav>
+          
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="indexGrid.html">Projects</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Thaboneo Construction & Projects (PTY)LTD</h1>
+                <p>Our mainstay is in 
+                  designing and implementing new, customized and efficient methods of construction in a cost-effective menner for our clients.
+                </p>
+                <a href="aboutUs.html" class="btn btn-outline">Read More</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Request a service</h2>
+                  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                    <form name="contact">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form> 
+                 
+            </div>
+        </div>
+    </section>
+    <!--our services-->
+    <div class="services" >
+        <h1>Scope of Services</h1><a name="services"></a>
+        <div class="cen">
+          <div class="service">
+            <i class="fas fa-drafting-compass"></i>
+            <h2>Civil</h2>
+            <p>Civil engineering firms and construction project managers</p>
+          </div>
+  
+          <div class="service">
+            <i class="fas fa-hammer"></i>
+            <h2>Construction</h2>
+            <p>Construction and building companies</p>
+          </div>
+  
+          <div class="service">
+            <i class="fas fa-tractor"></i>
+            <h2>Production</h2>
+            <p>Manufacturing and production firms</p>
+          </div>
+  
+          <div class="service">
+            <i class="fas fa-dumpster"></i>
+            <h2>Government</h2>
+            <p>Local government and municipalities</p>
+          </div>
+  
+          <div class="service">
+            <i class="fas fa-sitemap"></i>
+            <h2>organisation</h2>
+            <p>Non-governmental organisation</p>
+          </div>
+  
+          <div class="service">
+            <i class="fas fa-briefcase-medical"></i>
+            <h2>Health</h2>
+            <p>Hospital and other health institutions</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Stats 
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Welcome to the best platform for building applications of all types with modern architecture and scaling
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-hard-hat fa-3x"></i>
+                    <h3>10</h3>
+                    <p class="text-secondary">Deployments</p>
+                </div>
+                <div>
+                    <i class="fas fa-tools fa-3x"></i>
+                    <h3>20</h3>
+                    <p class="text-secondary">Published</p>
+                </div>
+                <div>
+                    <i class="fas fa-toolbox fa-3x"></i>
+                    <h3>20</h3>
+                    <p class="text-secondary">Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Cli 
+    <section class="cli">
+        <div class="container grid">
+            <img src="images/cli.jpg" alt="">
+            <div class="card">
+                <h3>Land artitecture</h3>
+            </div>
+            <div class="card">
+                <h3>Deploy in seconds</h3>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Extreme Construction services</h2>
+                <p class="lead my-1">We execute all projects with quality assurance you've never seen. Fast, efficient and scalable</p>
+                <a href="aboutUs.html" class="btn btn-dark">Read More</a>
+            </div>
+            <img src="images/clip6.jpg" alt="">
+        </div>
+    </section>
+<!--Testimonials-->
+<div class="testimonials">
+    <div class="inner">
+      <h1>Testimonials</h1>
+      <div class="border"></div>
+
+      <div class="row">
+        <div class="col">
+          <div class="testimonial">
+            <img src="images/testimonials/profile.png" alt="">
+            <div class="name">John M.S</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+
+            </div>
+
+            <p>
+              "Thaboneo Construction & projects is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Thaboneo again in the near future!"  </p>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="testimonial">
+            <img src="images/testimonials/profile.png" alt="">
+            <div class="name">catherine</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <p>
+              Thaboneo Construction & projects has exceeded our expectations, and we consider them one of our trusted partners in the mining market.</p>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="testimonial">
+            <img src="images/testimonials/profile.png" alt="">
+            <div class="name">Petros M.J</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <!--icons-->
+            </div>
+         
+            <p>
+              "...and for all the wonderful work you and your crew are doing. Our team has nothing but good things to say - we are really fortunate to have found you for this project!"</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Languages -->
+  <!--  <section class="languages">
+        <h2 class="md text-center my-2">
+            Supported Languages
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="images/logos/node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+              </div>
+              <div class="card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png" alt="">
+              </div>
+              <div class="card">
+                <h4>Ruby</h4>
+                <img src="images/logos/ruby.png" alt="">
+              </div>
+              <div class="card">
+                <h4>PHP</h4>
+                <img src="images/logos/php.png" alt="">
+              </div>
+              <div class="card">
+                <h4>Scala</h4>
+                <img src="images/logos/scala.png" alt="">
+              </div>
+              <div class="card">
+                <h4>Clojure</h4>
+                <img src="images/logos/clojure.png" alt="">
+              </div>
+        </div>
+    </section>-->
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Thaboneo Construction & projects (PTY)LTD
+                </h1>
+                <p>Copyright &copy; 2013</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <p>contacts: +27 234 5678</p>
+                <p>Soshanguve block L</p>
+                <p>Aubery Matlala</p>
+              </div>
+        </div>
+    </footer>
+    <!--scroll up button-->
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-alt-circle-up"></i> </a>
+</body>
+</html>

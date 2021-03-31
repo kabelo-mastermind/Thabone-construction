@@ -1,0 +1,129 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    width: 85vw;
+    margin: 0 auto;
+    
+}
+.image{
+    background: url("images/clip10.jpg") center/cover no-repeat;
+    position: relative;
+    margin-top: 120px;
+}
+.contents{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contents h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+    
+}
+.contents span{
+    height: 0.5px;
+    width: 80px;
+    background: var(--primary-color);
+    margin: 30px 0;
+}
+
+.contents p{
+    
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+/*.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 0.5px solid #777;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #777;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #06d6a0;
+}
+.links li:hover a{
+    color :#06d6a0;
+}*/
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: var(--primary-color);
+    margin: 0 auto;
+}
+.iconss{
+    display: flex;
+    padding: 15px 0;
+    
+}
+.iconss li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.iconss li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.iconss li i:hover{
+    color: var(--primary-color);
+}
+
+
+/*****************/
+
+@media(max-width: 992px){
+    .about{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 50vh;
+        margin-top: 30px;
+    }
+    .contents{
+        height: 70vh;
+    }
+    .contents h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .contents span{
+        margin: 20px 0;
+    }
+    .contents p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .iconss li i{
+        font-size: 15px;
+    }
+}
